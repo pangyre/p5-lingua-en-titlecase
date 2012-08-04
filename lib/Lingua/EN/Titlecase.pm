@@ -41,7 +41,7 @@ use overload '""' => sub { $_[0]->original ? $_[0]->title : ref $_[0] },
 
 use List::Util "first";
 use Carp;
-our $VERSION = "0.15";
+our $VERSION = "0.16";
 
 our %LC = map { $_ => 1 }
     qw( the a an and or but aboard about above across after against
@@ -269,10 +269,6 @@ Leave alone non-dictionary words? Like code bits: [\w]?
 =head1 NAME
 
 Lingua::EN::Titlecase - Titlecase English words by traditional editorial rules.
-
-=head1 VERSION
-
-0.14
 
 =head1 SYNOPSIS
 

@@ -1,5 +1,8 @@
 Revision history for Lingua-EN-Titlecase
 
+0.16
+     - Get VERSION out of Pod b/c I forget to sync it with $VERSION.
+
 0.15 Fri Aug  3 22:45:10 PDT 2012
      - 5.16+ compat fixes for qw(). Thanks, Andreas Koenig for nudge
        on rt.cpan.org #78773.

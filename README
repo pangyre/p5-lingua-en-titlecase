@@ -2,9 +2,6 @@ NAME
     Lingua::EN::Titlecase - Titlecase English words by traditional editorial
     rules.
 
-VERSION
-    0.14
-
 SYNOPSIS
      use Lingua::EN::Titlecase;
      my $tc = Lingua::EN::Titlecase->new("CAN YOU FIX A TITLE?");
@@ -210,11 +207,11 @@ RECIPES
                    "the many-colored land",
                    "llana of gathol",
                    );
-     
- print header(-content_type => "text/plain");
+ 
+     print header(-content_type => "text/plain");
      my $tt2 = Template->new();
-     
- $tt2->process(\*DATA,
+ 
+     $tt2->process(\*DATA,
                    { tc => Lingua::EN::Titlecase->new(),
                      title => \@titles }
                    );
