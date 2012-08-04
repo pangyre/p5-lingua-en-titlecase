@@ -9,6 +9,7 @@ Build.bat
 Makefile
 Makefile.old
 MANIFEST.bak
+MANIFEST
 META.yml
 MYMETA.yml
 nytprof.out
